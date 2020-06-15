@@ -1,0 +1,90 @@
+.header {
+    width: 100%;
+    background-color: #EAC67A;
+    height: 30px;
+}
+
+.container {
+    width: 300px;
+    background-color: #984B43;
+    margin: auto;
+}
+
+.row {
+  margin: 20px 0px;
+  color: white;
+}
+
+.rowMoney {
+  margin: 20px 0px;
+  color: black;
+  text-weight: bold;
+  text-align: center;
+}
+
+#itemId {
+  color: white;
+}
+
+#message {
+  color: black;
+  text-align: center;
+  text-weight: bold;
+}
+
+#changeDisplay {
+  color: black;
+  text-align: center;
+  text-weight: bold;
+  width: 250px;
+  height: 35px;
+  border: 1px;
+}
+
+#message {
+  width: 250px;
+  height: 35px;
+}
+
+#lastRow {
+  margin-top: 30px;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.boxed {
+    width: 200px;
+    float: left;
+    height: 200px;
+    background-color: #233237;
+    text-align: center;
+
+    padding: 0px 4px 30px;
+    margin: 0px 30px;
+    border-style: solid;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+.newRow {
+  color: black;
+}
+
+#addDollar,
+#addQuarter {
+  margin-bottom: 15px;
+}
+
+#returnChange,
+#makePurchase {
+  margin-top: 15px;
+}
+
+#messageCol {
+  margin-bottom: 15px;
+}

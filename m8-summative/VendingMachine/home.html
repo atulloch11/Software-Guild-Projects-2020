@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <link href="css/home.css"
+              rel="stylesheet"
+              type="text/css">
+        <!-- Bootstrap core CSS-->
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <div id="header" class="row">
+          <div class="col text-center">
+            <h1>Vending Machine</h1>
+            <hr/>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class ="col-sm-9">
+          <div class="boxed" id="firstBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div><br>
+        </div>
+        <div class="boxed" id="secondBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+        <div class="boxed" id="thirdBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+        </div>
+
+        <div class="col-sm-3 text-center">
+          <div id="totalMoneyDiv">
+          <h2>Total $ In</h2>
+        </div>
+        <div class="newRow">
+          <input type="text"
+          value="0.00"
+          class="rowMoney"
+          id="add-money"
+          />
+        </div>
+        <div class="newRow">
+          <button class="btn border-dark" id="addDollar">Add Dollar</button>
+          <button class="btn border-dark" id="addQuarter">Add Quarter</button>
+        </div>
+        <div class="newRow">
+          <button class="btn border-dark" id="addDime">Add Dime</button>
+          <button class="btn border-dark" id="addNickel">Add Nickel</button>
+      </div>
+      <hr />
+
+
+        </div>
+      </div>
+
+
+
+      <div class="row">
+      <div class ="col-sm-9">
+        <div class="boxed" id="fourthBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div><br>
+      </div>
+      <div class="boxed" id="fifthBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div><br>
+      </div>
+      <div class="boxed" id="sixthBox">
+          <div class="boxRow"><span class="number"></span></div><br>
+          <div class="boxRow"><span class="vendingName"></span></div><br>
+          <div class="boxRow"><span class="price"></span></div><br>
+          <div class="boxRow"><span class="quantity"></span></div><br>
+      </div>
+    </div>
+
+      <div class="col-sm-3 text-center">
+        <div id="messagesDiv">
+          <h2>Messages</h2>
+        </div>
+        <div id="messageCol" class="newRow">
+          <input id="message" type="text" readonly>
+        </div>
+        <div class="newRow">
+          <div id="itemId">
+            <h2>Item: </h2>
+          </div>
+            <input id="itemNumDisplay" class="item text-center" type="text" readonly>
+        </div>
+        <div class="newRow">
+          <button id="makePurchase" type="button" class="btn border-dark">Make Purchase</button>
+        </div>
+        <hr />
+      </div>
+
+    </div>
+
+
+
+    <div class="row">
+    <div class ="col-sm-9">
+      <div class="boxed" id="seventhBox">
+        <div class="boxRow"><span class="number"></span></div><br>
+        <div class="boxRow"><span class="vendingName"></span></div><br>
+        <div class="boxRow"><span class="price"></span></div><br>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+      <div class="boxed" id="eightBox">
+        <div class="boxRow"><span class="number"></span></div><br>
+        <div class="boxRow"><span class="vendingName"></span></div><br>
+        <div class="boxRow"><span class="price"></span></div><br>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+      <div class="boxed" id="ninthBox">
+        <div class="boxRow"><span class="number"></span></div><br>
+        <div class="boxRow"><span class="vendingName"></span></div><br>
+        <div class="boxRow"><span class="price"></span></div><br>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 text-center">
+      <div id="changeDive">
+      <h2>Change</h2>
+      </div>
+      <div class="newRow">
+          <input id="changeDisplay" type="text" readonly>
+      </div>
+      <div class="newRow">
+        <button id="returnChange" type="button" class="btn border-dark">Change Return</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+    <div id ="lastRow" class="col-sm-9">
+      <div class="boxed" id="10Box">
+        <div class="boxRow"><span class="number"></span></div>
+        <div class="boxRow"><span class="vendingName"></span></div>
+        <div class="boxRow"><span class="price"></span></div>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+      <div class="boxed" id="11Box">
+        <div class="boxRow"><span class="number"></span></div>
+        <div class="boxRow"><span class="vendingName"></span></div>
+        <div class="boxRow"><span class="price"></span></div>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+      <div class="boxed" id="12Box">
+        <div class="boxRow"><span class="number"></span></div>
+        <div class="boxRow"><span class="vendingName"></span></div>
+        <div class="boxRow"><span class="price"></span></div>
+        <div class="boxRow"><span class="quantity"></span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+        <!-- #5: Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>
