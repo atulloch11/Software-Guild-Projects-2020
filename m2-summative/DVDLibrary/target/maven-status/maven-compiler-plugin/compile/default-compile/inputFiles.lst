@@ -1,0 +1,17 @@
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryServiceLayerImpl.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/App.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryAuditDaoFileImpl.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryAuditDao.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryDuplicateIdException.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryPersistenceException.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/UserIO.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/ui/UserIOConsoleImpl.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDao.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryAuditDaoStubImpl.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryServiceLayer.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/controller/DVDLibraryController.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/service/DVDLibraryDataValidationException.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dto/DVD.java
+/Users/ashleytulloch/Documents/Dev10/java-dal-0120-atulloch11/Summatives/m2-summative/DVDLibrary/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoStubImpl.java
