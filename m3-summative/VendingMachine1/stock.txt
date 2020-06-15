@@ -1,0 +1,6 @@
+Snickers::0.50::7
+Herseys::0.55::10
+Lays Potato Chips::1.50::4
+Cheetos::1.25::7
+Milky Way::0.75::0
+Doritos::1.10::5
