@@ -1,0 +1,136 @@
+.bg {
+    background-color: #626E60;
+}
+
+
+.container {
+  background-color: #626E60;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+.container_nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3C3C3C;
+    font-family: 'Baloo Thambi 2', cursive;
+    border-bottom: solid;
+    border-width: 5px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    
+    position: relative;
+}
+
+nav a {
+    color: #AF473C;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #626E60;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #626E60;
+    
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    background-color: #3C3C3C;
+    text-align: center;
+}
+
+#infoBeer {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 18px;
+}
+
+
+#beerButton {
+    background-color: #AF473C;
+    color: black;
+    border-color: black;
+}
+
+#imgPic {
+    width: 150px;
+    height: 200px;
+}
+
+#beerName {
+    font-size: 25px;
+    color: white;
+    border: solid;
+    border-color: #AF473C;
+    border-width: 5px;
+    padding: 5px;
+    background-color: #3C3C3C;
+    margin-left: 25px;
+}
+
+#beersInfo {
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #3C3C3C;
+    color: #AF473C;
+    height: 50px;
+    position: relative;
+}
+
+.footer-bottom {
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}

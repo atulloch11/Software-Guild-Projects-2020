@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+          <xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet">
+        <title>Alcopedia</title>
+        <!-- Bootstrap core CSS -->
+
+        <link rel="stylesheet" type="text/css" th:href="@{/css/cocktails.css}"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body class="bg">
+              <header>
+      <div class="container_nav">
+        <img th:src="@{/images/logo.png}" alt="logo" class="logo" style="width:100px;height:100px;">
+
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="content">Beer Database</a></li>
+            <li><a href="cocktail">Search Cocktails</a></li>
+            <li><a href="brewery">Find a Brewery</a></li>
+            <li><a href="admin"><img th:src="@{/images/user.png}" style="margin-right: 5px;" alt="user-icon"><span th:text="${#authentication.name}">
+                              </span></a></li>
+          </ul>
+
+        </nav>
+          
+
+        </div>
+        </header>
+        
+        
+      <div class="container">
+        <h1><center>Search Cocktail By Name</center></h1>
+        <hr/>
+          <div class="form-row">
+			  <div class="col-md-5">
+            <input type="text"
+            class="form-control"
+            id="cocktailName"
+            placeholder="Input Cocktail Name" required/>
+            </div>
+		  
+
+  
+            <div class="col-md-4">
+              <button type="button"
+              id="submitCocktail"
+              class="btn btn-dark">
+              Search
+              </button>
+              </div>
+              </div>
+      </div>
+             
+
+
+              <div class="container">
+              <div class="col">
+                <div id="cocktailDisplayName">
+                </div>
+              </div>
+              </div>
+
+
+              <div class="container-instructions">
+                <div id="firstDiv">
+		<div id="instructionsDiv">
+                  <h2>Instructions: </h2>
+                  <div id="cocktailInstructions">
+                  </div>
+                    </div>
+                </div>
+              </div>
+
+                <div id="secondDiv">
+              <div id="cocktailPictureDisplay" class="col-6">
+              </div>
+             </div>
+
+      <div class="container-ingredients">
+                <div class="row2">
+                  <h2>Ingredients: </h2>
+                  <table id="cocktailIngredients">
+                  </table>
+				  </div>
+    </div>
+
+
+
+
+        <!-- #5: Placed at the end of the document so the pages load faster -->
+        
+      <script type="text/javascript" th:src="@{js/jquery-2.2.4.min.js}"></script>
+      <script type="text/javascript" th:src="@{js/bootstrap.js}"></script>
+      <script type="text/javascript" th:src="@{js/cocktails.js}"></script>
+        <script type="text/javascript" th:src="@{/js/cocktail.js}"></script>
+    </body>
+</html>

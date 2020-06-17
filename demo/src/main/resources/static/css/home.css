@@ -1,0 +1,82 @@
+.bg {
+      background-color: #626E60;
+}
+
+
+.container {
+  background-color: #626E60;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+body {
+    background-color: #626E60;
+}
+
+.container_nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3C3C3C;
+    font-family: 'Baloo Thambi 2', cursive;
+    border-bottom: solid;
+    border-width: 5px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    
+    position: relative;
+}
+
+nav a {
+    color: #AF473C;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #626E60;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #626E60;
+    
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+.logo {
+    float: left;
+}
